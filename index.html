@@ -30,8 +30,8 @@
         </div>
         <div class="card-body container-fluid">
           <form class=" g-3 needs-validation m-100vh" novalidate>
-
-            <div class="row d-flex justify-content-between my-2 tarjeta">
+<!--  -->
+            <div class="row d-flex justify-content-between my-2 tarjeta"> 
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <label for="validationCustom01" class="form-label">Card #</label> <!-- //value="Mark" required -->
                 <input type="number" class="form-control" id="validationCustom01" placeholder="XXXXXXXXXXXXXX" required>
@@ -89,10 +89,10 @@
 
             <div class="row d-flex justify-content-between my-2 mensaje">
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="col-md-6">
-                  <label for="iconos" class="form-label">We accept:</label>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 id=iconos bg-secondary rounded-1">
+                
+                <label for="iconos" class="form-label d-block">We accept:</label>
+                
+                <span id="iconos" class=" p-2 bg-secondary rounded-1">
                   
                     <div class="form-check form-check-inline ">
                       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -119,31 +119,30 @@
                     </div>
 
                   
-                </div>
+                </span>
  
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="col-md-6">
+                
                   <label for="Message" class="form-label">Message:</label>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                  <textarea class="w-75 p-3" name="Message" id="Message"></textarea>
+                
+                  <textarea class="form-control p-3" name="Message" id="Message"></textarea>
                   <div id="emailHelp" class="form-text">Add any notes here.</div>
-                </div>
               </div>
             </div>
         </div>
         </form>
-      </div>
-
-
-
-      <div class="card-footer text-body-secondary">
-        <div class="col-12 d-flex justify-content-end bg-light">
+        <div class="card-footer text-body-secondary">
+        <div class="d-flex justify-content-end bg-light">
           <input class="btn btn-secondary mx-1" type="submit" value="cancel" />
           <input class="btn btn-primary mx-1" type="submit" value="send" />
         </div>
       </div>
+      </div>
+
+
+
+      
     </div>
 
 
