@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +9,21 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Form HTML5</title>
-  <style>
-
-  </style>
 </head>
-
 <body>
   <div class="row d-flex justify-content-center aling-items-center my-100px mx-auto p-2">
     <div class="col-sm-12 col-md-12 col-lg-10">
       <div class="card">
         <div class="card-header bg-light">
-
-
           <h2>Pay form example</h2>
-
         </div>
         <div class="alert alert-danger m-2" role="alert">
           Some fields are required.
         </div>
         <div class="card-body container-fluid">
           <form class=" g-3 needs-validation m-100vh" novalidate>
-<!--  -->
-            <div class="row d-flex justify-content-between my-2 tarjeta"> 
+            <!--  -->
+            <div class="row d-flex justify-content-between my-2 tarjeta">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <label for="validationCustom01" class="form-label">Card #</label> <!-- //value="Mark" required -->
                 <input type="number" class="form-control" id="validationCustom01" placeholder="XXXXXXXXXXXXXX" required>
@@ -40,7 +32,6 @@
                 <label for="validationCustom02" class="form-label">CVC #</label>
                 <!-- //aqui borre value="otto" required -->
                 <input type="number" class="form-control" id="validationCustom02" placeholder="0000">
-
               </div>
               <div class="col-sm-12 col-md-5 col-lg-3">
                 <label for="validationCustomUsername" class="form-label">Amount</label>
@@ -75,74 +66,63 @@
                   <option>España</option>
                   <option>Mexico</option>
                 </select>
-
               </div>
               <div class="col-sm-12 col-md-5 col-lg-3">
                 <label for="validationCustom05" class="form-label">Postal code</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
-
+                <!--cambio del tipo de de input-->
+                <input type="number" class="form-control" id="validationCustom05" required>
               </div>
-
             </div>
-
-
-
             <div class="row d-flex justify-content-between my-2 mensaje">
               <div class="col-sm-12 col-md-6 col-lg-6">
-                
-                <label for="iconos" class="form-label d-block">We accept:</label>
-                
-                <span id="iconos" class=" p-2 bg-secondary rounded-1">
-                  
-                    <div class="form-check form-check-inline ">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                        value="option1">
-                      <label class="form-check-label" for="inlineRadio1"><span
-                          class="fa-brands fa-cc-mastercard"></span></label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2">
-                      <label class="form-check-label" for="inlineRadio2"><span
-                          class="fa-brands fa-cc-visa"></span></label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2">
-                      <label class="form-check-label" for="inlineRadio2"><span class="fa-solid fa-otter"></span></label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2">
-                      <label class="form-check-label" for="inlineRadio2"><span
-                          class="fa-brands fa-amazon-pay"></span></label>
-                    </div>
 
-                  
+                <label for="iconos" class="form-label d-block">We accept:</label>
+
+                <span id="iconos" class=" p-2 bg-secondary rounded-1">
+
+                  <div class="form-check form-check-inline ">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                      value="option1">
+                    <label class="form-check-label" for="inlineRadio1"><span
+                        class="fa-brands fa-cc-mastercard"></span></label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                      value="option2">
+                    <label class="form-check-label" for="inlineRadio2"><span
+                        class="fa-brands fa-cc-visa"></span></label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                      value="option2">
+                    <label class="form-check-label" for="inlineRadio2"><span class="fa-solid fa-otter"></span></label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                      value="option2">
+                    <label class="form-check-label" for="inlineRadio2"><span
+                        class="fa-brands fa-amazon-pay"></span></label>
+                  </div>
                 </span>
- 
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">
-                
-                  <label for="Message" class="form-label">Message:</label>
-                
-                  <textarea class="form-control p-3" name="Message" id="Message"></textarea>
-                  <div id="emailHelp" class="form-text">Add any notes here.</div>
+                <label for="Message" class="form-label">Message:</label>
+                <textarea class="form-control p-3" name="Message" id="Message"></textarea>
+                <div id="emailHelp" class="form-text">Add any notes here.</div>
               </div>
             </div>
         </div>
-        </form>
+        <!--div implementado al form y es responsivo-->
         <div class="card-footer text-body-secondary">
-        <div class="d-flex justify-content-end bg-light">
-          <input class="btn btn-secondary mx-1" type="submit" value="cancel" />
-          <input class="btn btn-primary mx-1" type="submit" value="send" />
+          <div class="d-flex justify-content-end bg-light row">
+            <input class="btn btn-secondary mx-1 col-sm-2 col-md-2 col-lg-1" type="submit" value="cancel" />
+            <input class="btn btn-primary mx-1 col-sm-2 col-md-2 col-lg-1" type="submit" value="send" />
+          </div>
         </div>
+
+        </form>
+
       </div>
-      </div>
-
-
-
-      
     </div>
 
 
